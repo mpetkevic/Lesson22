@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 70%;
+    height: 775px;
+    display: block;
+    margin: 150px auto 0;
+    background: white;
+
+    .container-fluid {
+
+        .row {
+
+            .col {
+                height: 775px;
+
+                img {
+                    display: block;
+                    margin: 150px auto;
+                }
+
+                h1 {
+                    text-align: center;
+                    padding: 75px 0 25px;
+                }
+
+                p {
+                    width: 60%;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+
+                form {
+                    
+                    width: 50%;
+                    margin: 50px auto;
+
+                    label {
+                        display: inline-block;
+                        width: 20px;
+
+                        &.error {
+                            color: red;
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+
+                    input {
+                        width: 90%;
+                        height: 35px;
+                        margin: 10px 0 20px;
+                        border: none;
+                        border-bottom: 1px solid rgb(192, 189, 189);
+                        outline: none;
+                        font-size: 16px;
+
+                        &::placeholder {
+                            font-size: 14px;
+                            color: grey;
+                        }
+
+                        &:focus, &:hover {
+                            border-bottom: 1px solid black;
+                        }
+
+                        &.error {
+                            border-bottom: 1px solid red;
+                        }
+                    }
+
+                    button {
+                        padding: 15px 30px;
+                        margin: 0 auto;
+                        display: block;
+                        background-color: #82c5c3;
+                        border: none;
+                        color: white;
+                        font-size: 12px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        border-radius: 50px;
+                        outline: none;
+                        font-size: 16px;
+                        
+                        i {
+                            padding-left: 5px;
+                        }
+                    }
+                }
+
+                a {
+                    color: orange;
+                    text-decoration: none;
+                    padding: 0 20px;
+                    font-size: 16px;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

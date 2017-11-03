@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content {
+  width: 70%;
+  height: 775px;
+  display: block;
+  margin: 150px auto 0;
+  background: white; }
+  .content .container-fluid .row .col {
+    height: 775px; }
+    .content .container-fluid .row .col img {
+      display: block;
+      margin: 150px auto; }
+    .content .container-fluid .row .col h1 {
+      text-align: center;
+      padding: 75px 0 25px; }
+    .content .container-fluid .row .col p {
+      width: 60%;
+      text-align: center;
+      margin: 0 auto; }
+    .content .container-fluid .row .col form {
+      width: 50%;
+      margin: 50px auto; }
+      .content .container-fluid .row .col form label {
+        display: inline-block;
+        width: 20px; }
+        .content .container-fluid .row .col form label.error {
+          color: red;
+          display: block;
+          width: 100%; }
+      .content .container-fluid .row .col form input {
+        width: 90%;
+        height: 35px;
+        margin: 10px 0 20px;
+        border: none;
+        border-bottom: 1px solid #c0bdbd;
+        outline: none;
+        font-size: 16px; }
+        .content .container-fluid .row .col form input::placeholder {
+          font-size: 14px;
+          color: grey; }
+        .content .container-fluid .row .col form input:focus, .content .container-fluid .row .col form input:hover {
+          border-bottom: 1px solid black; }
+        .content .container-fluid .row .col form input.error {
+          border-bottom: 1px solid red; }
+      .content .container-fluid .row .col form button {
+        padding: 15px 30px;
+        margin: 0 auto;
+        display: block;
+        background-color: #82c5c3;
+        border: none;
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        outline: none;
+        font-size: 16px; }
+        .content .container-fluid .row .col form button i {
+          padding-left: 5px; }
+    .content .container-fluid .row .col a {
+      color: orange;
+      text-decoration: none;
+      padding: 0 20px;
+      font-size: 16px;
+      font-weight: bold; }
+      .content .container-fluid .row .col a:hover {
+        text-decoration: underline; }
